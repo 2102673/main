@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout SCM') {
             agent any
             steps {
-                git branch: 'main', url: 'https://github.com/2102673/main.git'
+                git branch: 'master', url: 'https://github.com/2102673/main.git'
             }
         }
 
