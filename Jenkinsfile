@@ -28,8 +28,9 @@ pipeline {
             }
 
             post {
-		recordIssues enabledForFailure: true, tool: SonarQube()
-                
+                always {
+                    recordIssues enabledForFailure: true, tool: SonarQube()
+                }
             }
         }
 
