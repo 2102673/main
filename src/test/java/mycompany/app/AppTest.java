@@ -24,7 +24,7 @@ public class AppTest
 	WebDriver driver; 
 	WebDriverWait wait; 
 	// String url = "http://192.168.50.207";
-	String url = "http://172.20.10.2";
+	String url = "http://172.20.10.13";
 
     String validSearchTerm = "ValidSearch";
     String xssAttackTerm = "<script>alert('XSS Attack');</script>";
